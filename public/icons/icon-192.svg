@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="AeroMate app icon">
+  <defs>
+    <linearGradient id="bg" x1="135" y1="30" x2="900" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFEFFF"/>
+      <stop offset="0.34" stop-color="#72C9F7"/>
+      <stop offset="0.72" stop-color="#2298F3"/>
+      <stop offset="1" stop-color="#0578E8"/>
+    </linearGradient>
+    <radialGradient id="shine" cx="260" cy="110" r="650" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.58"/>
+      <stop offset="0.44" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="planeGrad" x1="330" y1="260" x2="790" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#082C70"/>
+      <stop offset="0.6" stop-color="#021E55"/>
+      <stop offset="1" stop-color="#031642"/>
+    </linearGradient>
+    <linearGradient id="contrailBlue" x1="20" y1="790" x2="380" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66CFFF" stop-opacity="0.72"/>
+      <stop offset="0.55" stop-color="#39AFFF" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.92"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#003875" flood-opacity="0.34"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#001538" flood-opacity="0.48"/>
+    </filter>
+    <filter id="innerDepth" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#0A4E91" flood-opacity="0.3"/>
+    </filter>
+    <clipPath id="roundClip">
+      <rect x="0" y="0" width="1024" height="1024" rx="145" ry="145"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundClip)">
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1024" height="1024" fill="url(#shine)"/>
+
+    <!-- subtle edge gloss / depth -->
+    <rect x="9" y="9" width="1006" height="1006" rx="136" ry="136" fill="none" stroke="#DDF7FF" stroke-opacity="0.42" stroke-width="11"/>
+    <path d="M18 780 C190 725 300 661 382 595" fill="none" stroke="#DFF8FF" stroke-opacity="0.18" stroke-width="2"/>
+
+    <!-- contrails -->
+    <path d="M0 885 C140 834 270 765 381 631 C327 775 197 919 96 1024 L0 1024 Z" fill="url(#contrailBlue)" opacity="0.72"/>
+    <path d="M0 819 C151 780 281 710 382 631 C335 717 220 839 0 922 Z" fill="#FFFFFF" opacity="0.92"/>
+    <path d="M151 1024 C235 914 324 780 385 631 C335 839 268 960 218 1024 Z" fill="#FFFFFF" opacity="0.92"/>
+    <path d="M0 965 C155 908 290 800 386 631 C340 831 247 966 202 1024 L0 1024 Z" fill="#65C7FF" opacity="0.48"/>
+    <path d="M0 818 C158 778 286 713 383 631" fill="none" stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2"/>
+
+    <!-- aircraft -->
+    <path filter="url(#softShadow)" fill="url(#planeGrad)" d="
+      M 823 155
+      C 854 133 885 139 900 158
+      C 914 177 909 207 885 237
+      L 736 420
+      C 730 428 728 437 731 446
+      L 792 713
+      C 796 732 791 750 778 762
+      C 763 776 745 774 733 759
+      L 594 584
+      C 589 578 581 577 575 582
+      L 476 670
+      C 470 675 467 683 468 691
+      L 469 757
+      C 470 775 456 792 439 797
+      C 424 801 414 794 412 779
+      L 400 705
+      C 399 698 394 692 388 689
+      L 262 620
+      C 248 612 246 599 257 588
+      L 286 558
+      C 293 551 302 548 311 550
+      L 401 573
+      C 409 575 417 572 422 566
+      L 514 462
+      C 521 454 519 443 510 439
+      L 298 327
+      C 283 319 281 304 294 292
+      L 323 265
+      C 331 257 342 255 352 258
+      L 619 334
+      C 627 336 635 333 640 327
+      Z"/>
+    <path d="
+      M 823 155
+      C 854 133 885 139 900 158
+      C 914 177 909 207 885 237
+      L 736 420
+      C 730 428 728 437 731 446
+      L 792 713
+      C 796 732 791 750 778 762
+      C 763 776 745 774 733 759
+      L 594 584
+      C 589 578 581 577 575 582
+      L 476 670
+      C 470 675 467 683 468 691
+      L 469 757
+      C 470 775 456 792 439 797
+      C 424 801 414 794 412 779
+      L 400 705
+      C 399 698 394 692 388 689
+      L 262 620
+      C 248 612 246 599 257 588
+      L 286 558
+      C 293 551 302 548 311 550
+      L 401 573
+      C 409 575 417 572 422 566
+      L 514 462
+      C 521 454 519 443 510 439
+      L 298 327
+      C 283 319 281 304 294 292
+      L 323 265
+      C 331 257 342 255 352 258
+      L 619 334
+      C 627 336 635 333 640 327
+      Z" fill="none" stroke="#0A3B88" stroke-width="5" stroke-opacity="0.65"/>
+    <path d="M330 270 L618 351 C635 355 648 350 658 337 L830 168" fill="none" stroke="#3F72B7" stroke-opacity="0.22" stroke-width="5" stroke-linecap="round"/>
+  </g>
+</svg>
