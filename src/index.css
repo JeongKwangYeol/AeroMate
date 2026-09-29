@@ -219,3 +219,10 @@
   }
 }
 /* Prevent the Occurrence Date field from overflowing on mobile */
+#occurrence-date::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
