@@ -55,7 +55,7 @@ export default function AppHeader() {
             </h2>
 
             <div className="space-y-3 text-base">
-              <InfoRow label="Version" value="v1.0.3" />
+              <InfoRow label="Version" value="v1.0.4" />
               <div className="border-t border-border" />
               <div>
                 <p className="text-sm font-bold uppercase tracking-wider text-muted-foreground mb-1">
@@ -66,7 +66,7 @@ export default function AppHeader() {
               </div>
               <div className="border-t border-border" />
 
-              <InfoRow label="Last Updated" value="2026.08" />
+              <InfoRow label="Last Updated" value="2026.10" />
 
               <div className="border-t border-border" />
 
@@ -76,14 +76,22 @@ export default function AppHeader() {
                 </p>
 
                 <p className="text-foreground font-medium mb-1">
-                  2026.08
-                </p>
+  2026.10
+</p>
 
-                <div className="space-y-1 text-foreground font-medium">
-                  <p>• Added Time Calculator</p>
-                  <p>• Added UTC Clock</p>
-                  <p>• Improved UI Layout</p>
-                </div>
+<div className="space-y-1 text-foreground font-medium">
+  <p>• Removed Calendar Icon & Optimized Mobile Date Display</p>
+</div>
+
+<p className="text-foreground font-medium mb-1 mt-4">
+  2026.08
+</p>
+
+<div className="space-y-1 text-foreground font-medium">
+  <p>• Added Time Calculator</p>
+  <p>• Added UTC Clock</p>
+  <p>• Improved UI Layout</p>
+</div>
               </div>
             </div>
 
