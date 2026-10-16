@@ -430,7 +430,6 @@ export default function MelCalculator() {
                   <div className="flex w-full rounded-md border border-border overflow-hidden bg-input">
                     {/* Left: date picker */}
                     <div className="relative flex-1 min-w-0">
-                      <CalendarIcon className="absolute z-10 left-3 sm:left-4 top-1/2 -translate-y-1/2 h-4 w-4 sm:h-5 sm:w-5 text-primary pointer-events-none" />
                       <input
                         id="occurrence-date"
                         type="date"
@@ -440,7 +439,7 @@ export default function MelCalculator() {
                         }
                         data-testid="input-occurrence-date"
                         className={cn(
-                          "w-full h-11 sm:h-16 pl-9 sm:pl-12 pr-2 bg-transparent",
+                          "w-full h-11 sm:h-16 pl-2 sm:pl-3 pr-2 bg-transparent",
                           "text-foreground font-mono text-base sm:text-xl font-medium",
                           "focus:outline-none focus:ring-2 focus:ring-ring",
                           "border-0",
